@@ -90,9 +90,9 @@
                             </div>
                         </div>
                         <div class="form-group wow fadeInLeft" data-wow-delay="0.8s">
-                            <label for="miestas" class="col-md-1 col-md-offset-4 control-label">Miestas</label>
+                            <label for="miestas" class="col-md-1 col-md-offset-4 control-label">Miestas*</label>
                             <div class="col-md-3">
-                                {!! Form::text('miestas', null, array('class' => 'form-control')) !!}
+                                {!! Form::text('miestas', null, array('class' => 'form-control', 'required' => 'true')) !!}
                             </div>
                         </div>
                         <div class="form-group wow fadeInLeft" data-wow-delay="1s">
