@@ -138,7 +138,7 @@
                             <div class="col-md-3">
                                 {!! Form::text('data', "$uzsakymas->created_at", array('class' => 'form-control', 'required' => 'true')) !!}
                             </div>
-                            <label for="atnaujinta" class="col-md-1 control-label">Miestas</label>
+                            <label for="atnaujinta" class="col-md-1 control-label">Atnaujinta</label>
                             <div class="col-md-3">
                                 {!! Form::text('atnaujinta', "$uzsakymas->updated_at", array('class' => 'form-control', 'required' => 'true')) !!}
                             </div>
